@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+header {
+    margin: 20px 40px;
+}
+
+.tabbingNav {
+    border-bottom: 1px solid black;
+    width: 500px;
+    margin: auto;
+
+    transition: 0.2s ease-in-out;
+}
+
+.tabbingNav:hover {
+    width: 800px;
+}
+
+.tabbingNav ul {
+    list-style: none;
+    
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.tabbingNav ul li {
+    background-color: rgb(178, 178, 178);
+    padding: 8px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.tabbingNav ul li:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.tabbingNav ul li.active {
+    color: white;
+    background-color: black;
+}
+
+.tabbingNav ul li.active-0 {
+    background-color: red;
+}
+
+.tabbingNav ul li.active-1 {
+    background-color: black;
+}
+
+.tabbingNav ul li.active-2 {
+    background-color: blue;
+}
+
+.routingContent {
+    margin: 10px 300px;
+}

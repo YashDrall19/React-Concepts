@@ -1,0 +1,54 @@
+.routing {
+    margin: 20px 50px;
+}
+
+.routing h1{
+    margin-bottom: 20px;
+}
+
+.routingNav {
+    border-bottom: 1px solid black;
+    width: 700px;
+    margin: auto;
+
+    transition: 0.2s ease-in-out;
+}
+
+.routingNav:hover {
+    width: 1000px;
+}
+
+.routingNav ul {
+    list-style: none;
+
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.routingNav ul li {
+    background-color: rgb(178, 178, 178);
+    padding: 8px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.routingNav ul li:hover {
+    color: white;
+    background-color: rgb(1, 1, 155);
+    text-decoration: underline;
+}
+
+.li {
+    color: black;
+    text-decoration: none;
+}
+
+.li:hover {
+    color: white;
+    background-color: rgb(1, 1, 155);
+}
+
+.active {
+    background-color: rgb(1, 1, 155);
+}
